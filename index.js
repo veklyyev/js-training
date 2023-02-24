@@ -1,7 +1,7 @@
-var artist = 'Reverb King';
-var track = "Just Don't";
+const artist = 'Reverb King';
+const track = "Just Don't";
 
-var song = artist + track;
+const song = artist + track;
 
 for (var x = 0; x < song.length; x++) {
     console.log(song[x]);
@@ -17,7 +17,7 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log(result);
 
-var start = 1;
+const start = 1;
 var factorial = 1;
 switch(start) {
     case 1: factorial*=1; 
